@@ -21,4 +21,15 @@ function startTimer() {
   }
 }
 
+function countDown() {}
+
+function resetTimer() {
+  clearInterval(intervalId);
+  startButton.textContent = "START";
+  hoursInput.value = 0;
+  minutesInput.value = 0;
+  secondsInput.value = 0;
+}
+
 startButton.addEventListener("click", startTimer);
+resetButton.addEventListener("click", resetTimer);
