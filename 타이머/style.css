@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("font/Pretendard-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Pretendard-Bold";
+  margin: 0;
+  background: linear-gradient(
+    to right,
+    rgba(240, 244, 255, 1),
+    rgba(165, 182, 238, 1)
+  );
+  text-align: center;
+}
+
+.logo {
+  width: 244px;
+  height: 48px;
+  margin-top: 72px;
+}
+
+.container {
+  background: linear-gradient(
+    to bottom,
+    rgba(85, 114, 187, 1),
+    rgba(55, 75, 124, 1)
+  );
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+  width: 400px;
+  /* height: 360px; */
+  margin: 60px auto;
+  box-sizing: border-box;
+}
+
+.container h1 {
+  color: #fff;
+  padding-top: 48px;
+  font-size: 24px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #324577;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  color: rgba(97, 113, 153, 1);
+  padding: 16px 23px;
+  margin: 40px auto;
+}

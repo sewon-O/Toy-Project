@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이머</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+
+    <img class="logo" src="./img/weniv-logo.png" alt="weniv-logo" />
+
+    <div class="container">
+      <h1>TIMER</h1>
+      <ul>
+        <li>
+          <label for="hours">HRS</label>
+          <input type="number" id="hours" min="0" value="0" />
+        </li>
+        <li>
+          <label for="minutes">MIN</label>
+          <input type="number" id="minutes" min="0" max="59" value="0" />
+        </li>
+        <li>
+          <label for="seconds">SEC</label>
+          <input type="number" id="seconds" min="0" max="59" value="0" />
+        </li>
+      </ul>
+      <div>
+        <button id="start" type="button">START</button>
+        <button id="reset" type="button">PAUSE</button>
+      </div>
+    </div>
+  </body>
+</html>
